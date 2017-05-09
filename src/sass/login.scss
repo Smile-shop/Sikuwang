@@ -1,0 +1,137 @@
+@import url('footer.css');
+@import url('base.css');
+header {
+  height: 70px;
+  width: 100%;
+  background: #323131;
+  position: relative;
+  i {
+    position: absolute;
+    display: block;
+    left: 40px;
+    width: 30px;
+    height: 70px;
+    background: url(../img/logo.png);
+  }
+  .right {
+    float: right;
+    ul {
+      li {
+        float: right;
+        list-style: none;
+        margin: 0 30px;
+        line-height: 70px;
+        font-size: 12px;
+        a {
+          color: #999999;
+          &:hover {
+            color: #f6ac08;
+          }
+        }
+      }
+    }
+  }
+}
+section {
+  height: 750px;
+  width: 100%;
+  background: #fdf8f4;
+  .content {
+    width: 1200px;
+    height: 750px;
+    .bac {
+      float: left;
+      width: 735px;
+      height: 696px;
+      background: url('../img/login-bcg.png');
+      position: relative;
+      left: 89px;
+      top: 48px;
+    }
+    .login {
+      width: 360px;
+      height: 480px;
+      background: #fff;
+      box-shadow: 0 0 23px rgba(0,0,0,.1);
+      float: right;
+      position: absolute;
+      top: 190px;
+      left: 830px;
+      h1 {
+        color: #f19108;
+        text-align: center;
+        margin: 25px;
+        font-weight: normal;
+      }
+      #checkbox {
+        margin-left: 30px;
+      }
+      span {
+        font-size: 14px;
+      }
+      .btn {
+        width: 311px;
+        height: 48px;
+        background: #f19108;
+        border: none;
+        cursor: pointer;
+        margin: 22px 25px;
+        font-size: 16px;
+        color: #fff;
+      }
+      .friend {
+        p {
+          margin: 0px 25px;
+          font-size: 14px;
+          color: #999999;
+        }
+        .qq {
+          display: block;
+          width: 15px;
+          height: 15px;
+          position: relative;
+          background: url('../img/qq.jpg');
+          left: 30px;
+          top: 13px;
+          float: left;
+        }
+        .xl {
+          display: block;
+          width: 20px;
+          height: 20px;
+          position: relative;
+          background: url('../img/xunLei.png');
+          left: 60px;
+          top: 10px;
+        }
+      }
+      .zhu {
+        p {
+          margin: 30px 25px;
+          float: left;
+          font-size: 14px;
+          color: #999999;
+          a {
+            color: #f19108;
+          }
+        }
+        & > a {
+          font-size: 14px;
+          float: right;
+          right: 30px;
+          top: 30px;
+          position: relative;
+          color: #999999;
+          &:hover {
+            color: #bb3826;
+          }
+        }
+      }
+    }
+  }
+}
+section .content .login #name,section .content .login #password {
+  width: 311px;
+  height: 48px;
+  margin: 15px 25px;
+}

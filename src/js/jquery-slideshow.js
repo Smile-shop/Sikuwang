@@ -61,7 +61,6 @@
 						showPic();
 						
 					})
-					console.log(888)
 					$self.on('click','.next',function(){
 						opt.index++;
 						showPic();

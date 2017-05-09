@@ -1,10 +1,21 @@
+<?php 
+	session_start();
+	// echo $_SESSION['name'];
+	if(isset($_SESSION['user_username'])){
+		// echo $_SESSION['login_email'];
+	}else {
+		//跳转页面
+		header("Location: /ajax/project/src/html/login.html");
+		exit;
+	}
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>首页</title>
-	<link rel="stylesheet" href="css/index.css">
-	<script src="js/require.js" data-main="js/index.js"></script>
+	<link rel="stylesheet" href="/ajax/project/src/css/index.css">
+	<script src="/ajax/project/src/js/require.js" data-main="/ajax/project/src/js/index.js"></script>
 </head>
 </head>
 <body>

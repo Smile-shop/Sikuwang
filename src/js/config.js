@@ -3,11 +3,13 @@ require.config({
 	paths : {
 		//这里的路径基于baseUrl
         "jquery": "../lib/jquery-3.1.1",
-        "slideshow":"jquery-slideshow"
+        "slideshow":"jquery-slideshow",
+        "gdszoom":"jquery.gdszoom"
 
     },
      shim:{
-    	// 表示gdszoom依赖jquery
+    	// 表示依赖jquery
+        "gdszoom":["jquery"],
     	"slideshow":["jquery"]
     }
 

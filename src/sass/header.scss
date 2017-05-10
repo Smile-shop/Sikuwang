@@ -130,6 +130,17 @@ header {
       float: left;
       margin-left: 250px;
       width: 850px;
+      position: relative;
+      i{
+        display: block;
+        width: 19px;
+        height: 12px;
+        background:url('../img/hot.gif');
+        position: absolute;
+        left: 248px;
+        
+
+      }
       a {
         margin: 0 20px;
       }
@@ -146,7 +157,8 @@ header {
     }
     .all {
       display: none;
-      z-index: 100000;
+      z-index: 10;
+
       dl {
         width: 180px;
         height: 63px;

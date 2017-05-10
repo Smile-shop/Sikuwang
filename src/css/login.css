@@ -2,7 +2,7 @@
 @import url("base.css");
 header { height: 70px; width: 100%; background: #323131; position: relative; }
 
-header i { position: absolute; display: block; left: 40px; width: 30px; height: 70px; background: url(../img/logo.png); }
+header i { position: absolute; display: block; left: 40px; width: 30px; height: 70px; background: url("../img/logo.png"); }
 
 header .right { float: right; }
 

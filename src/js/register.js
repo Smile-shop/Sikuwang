@@ -10,7 +10,11 @@ require(['config'],function(){
 					return false;
 				}
 <<<<<<< HEAD
+<<<<<<< HEAD
 				$.post('../php/register.php',{
+=======
+				$.post('/ajax/project/src/php/register.php',{
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 				$.post('/ajax/project/src/php/register.php',{
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
@@ -25,10 +29,16 @@ require(['config'],function(){
 					var $obj = eval('(' + response + ')');
 					if($obj.state){
 <<<<<<< HEAD
+<<<<<<< HEAD
 						confirm('注册成功！');
 						window.location.href = '../index.html';
 					} else {
 						confirm($obj.message);
+=======
+						alert('注册成功！');
+					} else {
+						alert($obj.message);
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 						alert('注册成功！');
 					} else {

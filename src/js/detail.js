@@ -3,7 +3,11 @@ require(['config'],function(){
 	require(['jquery','gdszoom'],function($){
 		$(function(){
 <<<<<<< HEAD
+<<<<<<< HEAD
 			$('header').load('../html/header.html',function(){
+=======
+			$('header').load('/ajax/project/src/html/header.html',function(){
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 			$('header').load('/ajax/project/src/html/header.html',function(){
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
@@ -16,7 +20,11 @@ require(['config'],function(){
 				})
 			});
 <<<<<<< HEAD
+<<<<<<< HEAD
 			$('footer').load('../html/footer.html');
+=======
+			$('footer').load('/ajax/project/src/html/footer.html');
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 			$('footer').load('/ajax/project/src/html/footer.html');
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
@@ -30,6 +38,7 @@ require(['config'],function(){
 					src:this.src,
 					'data-big':$(this).attr('data-big')
 				});
+<<<<<<< HEAD
 <<<<<<< HEAD
 			
 				$('li img').removeClass('active');
@@ -51,6 +60,9 @@ require(['config'],function(){
 				$('.t .nav').css({'position':''});
 			}
 		})
+=======
+			})
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 			})
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb

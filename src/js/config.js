@@ -4,9 +4,14 @@ require.config({
 		//这里的路径基于baseUrl
         "jquery": "../lib/jquery-3.1.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "carousel":"jquery-carousel",
         "gdszoom":"jquery.gdszoom",
         "lazyload":"../lib/jquery.lazyload"
+=======
+        "slideshow":"jquery-slideshow",
+        "gdszoom":"jquery.gdszoom"
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
         "slideshow":"jquery-slideshow",
         "gdszoom":"jquery.gdszoom"
@@ -17,9 +22,12 @@ require.config({
     	// 表示依赖jquery
         "gdszoom":["jquery"],
 <<<<<<< HEAD
+<<<<<<< HEAD
     	"carousel":["jquery"],
         "lazyload":["jquery"]
 =======
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
     	"slideshow":["jquery"]
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
     }

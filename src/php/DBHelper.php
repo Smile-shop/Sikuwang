@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿<?php 
+=======
+<?php 
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 <?php 
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
@@ -9,8 +13,13 @@
         $servername = 'localhost';
         $username = 'root';
 <<<<<<< HEAD
+<<<<<<< HEAD
         $password = '';
         $database = 'siku';
+=======
+        $password = 'root';
+        $database = '1000phone';
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
         $password = 'root';
         $database = '1000phone';
@@ -44,8 +53,13 @@
         $servername = "localhost";//
         $username = "root";
 <<<<<<< HEAD
+<<<<<<< HEAD
         $password = "";
         $dbname = 'siku'; 
+=======
+        $password = "root";
+        $dbname = '1000phone'; 
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
         $password = "root";
         $dbname = '1000phone'; 

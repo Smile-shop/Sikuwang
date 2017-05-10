@@ -18,7 +18,11 @@
 
 			var $zoom = $(this).addClass('gds-zoom');
 <<<<<<< HEAD
+<<<<<<< HEAD
             
+=======
+            console.log($zoom)
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
             console.log($zoom)
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
@@ -93,7 +97,11 @@
             	 // 计算移动的距离
                 var left = e.clientX - $zoom.offset().left - $minZoom.outerWidth()/2;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 var top = e.clientY - $zoom.offset().top - $minZoom.outerHeight()/2 + window.scrollY;
+=======
+                var top = e.clientY - $zoom.offset().top - $minZoom.outerHeight()/2;
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
                 var top = e.clientY - $zoom.offset().top - $minZoom.outerHeight()/2;
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb

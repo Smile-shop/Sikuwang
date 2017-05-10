@@ -8,7 +8,11 @@ require(['config'],function(){
 			 $('.btn').click(function(){
 			 	// console.log($('#name').val(),$('#password').val());
 <<<<<<< HEAD
+<<<<<<< HEAD
 		        $.post('../php/login.php',{
+=======
+		        $.post('/ajax/project/src/php/login.php',{
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 		        $.post('/ajax/project/src/php/login.php',{
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
@@ -19,7 +23,11 @@ require(['config'],function(){
 		          var $obj = eval('(' + response + ')');
 		          if($obj.state){
 <<<<<<< HEAD
+<<<<<<< HEAD
 		            window.location.href = '../index.html';
+=======
+		            window.location.href = '/ajax/project/src/php/index.php';
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 =======
 		            window.location.href = '/ajax/project/src/php/index.php';
 >>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb

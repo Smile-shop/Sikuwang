@@ -3,18 +3,26 @@ require(['config'],function(){
 	require(['jquery'],function($){
 		$(function(){
 			//加载底部
-			$('footer').load('../html/footer.html');
+			$('footer').load('/ajax/project/src/html/footer.html');
 			
 			 $('.btn').click(function(){
 			 	// console.log($('#name').val(),$('#password').val());
+<<<<<<< HEAD
 		        $.post('../php/login.php',{
+=======
+		        $.post('/ajax/project/src/php/login.php',{
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 		          username: $('#name').val(),
 		          password: $('#password').val()
 		        }, function(response){
 		        	//console.log(response)
 		          var $obj = eval('(' + response + ')');
 		          if($obj.state){
+<<<<<<< HEAD
 		            window.location.href = '../index.html';
+=======
+		            window.location.href = '/ajax/project/src/php/index.php';
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 		          } 
 		          else {
 		           alert($obj.message);

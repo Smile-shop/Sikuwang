@@ -17,7 +17,11 @@
 			var opt = $.extend({},defaults,options);
 
 			var $zoom = $(this).addClass('gds-zoom');
+<<<<<<< HEAD
             
+=======
+            console.log($zoom)
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
             var $smallPic = $zoom.children('img');
 
             // 全局变量
@@ -88,7 +92,11 @@
             $zoom.on('mousemove',function(e){
             	 // 计算移动的距离
                 var left = e.clientX - $zoom.offset().left - $minZoom.outerWidth()/2;
+<<<<<<< HEAD
                 var top = e.clientY - $zoom.offset().top - $minZoom.outerHeight()/2 + window.scrollY;
+=======
+                var top = e.clientY - $zoom.offset().top - $minZoom.outerHeight()/2;
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 
                 // 放置移出小图之外的区域
                 if(left<0){

@@ -2,7 +2,10 @@
 @import url('footer.css');
 @import url('slideshow.css');
 @import url("base.css");
+<<<<<<< HEAD
 *{margin: auto;}
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 .box {
   width: 100%;
   height: 400px;
@@ -11,13 +14,18 @@
 .fu{
 	width:100%;
 	height: 50px;
+<<<<<<< HEAD
 	background:url('../img/min_logo.png') no-repeat;
+=======
+	background:url('/ajax/project/src/img/min_logo.png') no-repeat;
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 	background-color:#fff;
 	box-shadow: 0 0 3px #ccc;
 	position: fixed;
 	top:0;
 	z-index:100000000;
 	display: none;
+<<<<<<< HEAD
   .sear{
       width: 1200px;
   	.bor {
@@ -99,3 +107,24 @@ section{
   overflow:hidden;
   visibility:hidden;
 }
+=======
+	.bor {
+            width: 600px;
+            height: 35px;
+            border: 2px solid #51458c;
+            float: left;
+            margin-left: 300px;
+            margin-top: 7px;
+          }
+          .bot {
+            cursor: pointer;
+            background: #51458c;
+            width: 71px;
+            height: 35px;
+            border: none;
+            float: left;
+            color: #fff;
+            margin-top: 7px;
+          }
+}
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb

@@ -1,13 +1,21 @@
 @import url('header.css');
 @import url('footer.css');
 @import url("base.css");
+<<<<<<< HEAD
+=======
+@import url("base.css");
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 @import url("jquery.gdszoom.css");
 *{
 	margin: auto;
 }
 section{
 	width: 100%;
+<<<<<<< HEAD
 	height: 11350px;
+=======
+	height: 4000px;
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 	background-color:#EDEDED;
 	margin-top: 35px;
 	overflow:hidden;
@@ -43,7 +51,10 @@ section{
 				}
 				.small-list li{
 					display: inline-block;
+<<<<<<< HEAD
 					margin-left: 73px;
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 				}
 				.small-list img{
 					width:60px;
@@ -51,6 +62,7 @@ section{
 				.zoom img{
 					height:300px;
 				}
+<<<<<<< HEAD
 				.bao{
 					width: 500px;
 					height: 54px;
@@ -98,6 +110,8 @@ section{
 						}
 					}
 				}
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 			}
 			.right{
 				width: 600px;
@@ -106,6 +120,7 @@ section{
 				border:1px solid #ccc;
 				float:left;
 				margin-top: 30px;
+<<<<<<< HEAD
 				.t{
 					width: 550px;
 					height: 60px;
@@ -212,6 +227,8 @@ section{
 						}
 					}
 				}
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 			}
 		}
 		.like{
@@ -220,6 +237,7 @@ section{
 			box-shadow: 0 2px 5px #ccc;
 			background-color:#fff;
 			margin-top: 30px;
+<<<<<<< HEAD
 			overflow: hidden;
 			h4{
 				margin: 30px 0 10px 30px;
@@ -253,6 +271,12 @@ section{
 		.detail{
 			width: 1200px;
 			height: 10350px;
+=======
+		}
+		.detail{
+			width: 1200px;
+			height: 3000px;
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 			margin-top: 30px;
 			.left{
 				width: 200px;
@@ -282,11 +306,16 @@ section{
 			}
 			.right{
 				width: 960px;
+<<<<<<< HEAD
 				height: 10200px;
+=======
+				height: 3000px;
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 				background-color:#fff;
 				box-shadow: 0 2px 5px #ccc;
 				float:left;
 				margin-left: 40px;
+<<<<<<< HEAD
 				.nav{
 					width: 960px;
 					height: 37px;
@@ -330,8 +359,13 @@ section{
 						}
 					}
 				}
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 			}
 		}
 	}
 }
+<<<<<<< HEAD
 .active{border:1.4px dashed red;}
+=======
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb

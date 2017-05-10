@@ -2,7 +2,11 @@ require(['config'],function(){
 	// 这里不能保证jquery,gdszoom,common的加载顺序
 	require(['jquery','gdszoom'],function($){
 		$(function(){
+<<<<<<< HEAD
 			$('header').load('../html/header.html',function(){
+=======
+			$('header').load('/ajax/project/src/html/header.html',function(){
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 					//移进去显示
 				$('.nav1').hover(function(){
 					$('.all').slideDown(200)
@@ -11,7 +15,11 @@ require(['config'],function(){
 					$('.all').slideUp(200);
 				})
 			});
+<<<<<<< HEAD
 			$('footer').load('../html/footer.html');
+=======
+			$('footer').load('/ajax/project/src/html/footer.html');
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 
 			$('.zoom').gdszoom({
 				position:'right',
@@ -22,6 +30,7 @@ require(['config'],function(){
 					src:this.src,
 					'data-big':$(this).attr('data-big')
 				});
+<<<<<<< HEAD
 			
 				$('li img').removeClass('active');
 				$(this).addClass('active');
@@ -42,6 +51,9 @@ require(['config'],function(){
 				$('.t .nav').css({'position':''});
 			}
 		})
+=======
+			})
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 		});
 	})
 })

@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 ﻿<?php 
+=======
+<?php 
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 
     function connect_oop(){
         // 配置参数
         $servername = 'localhost';
         $username = 'root';
+<<<<<<< HEAD
         $password = '';
         $database = 'siku';
+=======
+        $password = 'root';
+        $database = '1000phone';
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
 
         //连接数据库
         $conn = new mysqli($servername,$username,$password,$database);
@@ -34,8 +43,13 @@
     function connect(){
         $servername = "localhost";//
         $username = "root";
+<<<<<<< HEAD
         $password = "";
         $dbname = 'siku'; 
+=======
+        $password = "root";
+        $dbname = '1000phone'; 
+>>>>>>> ca259722b6dd346d4302f6a34a4f1e8e878d48eb
         //初始化连接，返回一个连接对象(包含所连接数据库的信息)
         $con = mysqli_connect($servername,$username,$password,$dbname); 
 

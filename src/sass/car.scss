@@ -1,0 +1,74 @@
+@import url('footer.css');
+@import url('base.css');
+* {
+  margin: auto;
+}
+header {
+  height: 70px;
+  width: 100%;
+  background: #323131;
+  position: relative;
+  i {
+    position: absolute;
+    display: block;
+    left: 40px;
+    width: 30px;
+    height: 70px;
+    background: url("../img/logo.png");
+  }
+  .right {
+    float: right;
+    position: absolute;
+    right: 180px;
+  }
+}
+section {
+  height: 750px;
+  width: 100%;
+  background: #fdf8f4;
+  .content {
+    width: 1200px;
+    height: 750px;
+    overflow: hidden;
+    .car {
+      width: 986px;
+      margin-top: 60px;
+      border: 1px solid #fff;
+      border-bottom: none;
+      .top {
+        width: 986px;
+        height: 50px;
+        background-color: #ececec;
+        border-bottom: 1px solid #fff;
+        input {
+          margin-top: 18px;
+          margin-left: 10px;
+        }
+        span {
+          font-size: 13px;
+          color:#494949;
+        }
+        .goodname {
+          margin-left: 171px;
+        }
+        .price {
+          margin-left: 182px;
+        }
+        .count {
+          margin-left: 91px;
+        }
+        .sum {
+          margin-left: 112px;
+        }
+        .cao {
+          margin-left: 112px;
+        }
+      }
+      ul {
+        width: 986px;
+        background-color: #fdf0ef;
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+}

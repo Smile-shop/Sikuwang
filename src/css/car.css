@@ -1,0 +1,23 @@
+@import url("footer.css");
+@import url("base.css");
+*{margin: auto;}
+header { height: 70px; width: 100%; background: #323131; position: relative; }
+
+header i { position: absolute; display: block; left: 40px; width: 30px; height: 70px; background: url("../img/logo.png"); }
+
+header .right { float: right;position:absolute;right:180px; }
+
+section { height: 750px; width: 100%; background: #fdf8f4; }
+
+section .content { width: 1200px; height: 750px;overflow: hidden;}
+section .content .car{ width: 986px;margin-top: 60px;border:1px solid #fff;border-bottom:none;}
+section .content .car .top{ width: 986px; height: 50px;background-color: #ECECEC;border-bottom:1px solid #fff;}
+
+section .content .car .top input{margin-top: 18px;margin-left: 10px;}
+section .content .car .top span{font-size: 13px;color:#494949;}
+section .content .car .top .goodname{margin-left: 171px;}
+section .content .car .top .price{margin-left: 182px;}
+section .content .car .top .count{margin-left: 91px;}
+section .content .car .top .sum{margin-left: 112px;}
+section .content .car .top .cao{margin-left: 112px;}
+section .content .car ul{width: 986px;background-color: #FDF0EF;border-bottom:1px solid #fff;}

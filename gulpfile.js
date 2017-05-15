@@ -1,4 +1,4 @@
-// 引入gulp模块
+﻿// 引入gulp模块
 // commonjs规范引用模块
 var gulp = require('gulp');
 var sass = require('gulp-sass'); 
@@ -64,7 +64,7 @@ gulp.task('server',function(){
 		// server: "./src",
 
 		// 代理服务器
-		proxy:'http://localhost/h5_1701/',
+		proxy:'http://localhost/project/',
 
 		// 自定义端口
 		port:999,

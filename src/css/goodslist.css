@@ -1,0 +1,78 @@
+@import url("footer.css");
+@import url("base.css");
+@import url("header.css");
+* { margin: auto; }
+
+section { width: 100%; height: 4040px; background-color: #EDEDED; margin-top: 35px; overflow: hidden; }
+
+section .content { width: 1200px; }
+
+section .content .tips { width: 200px; heigth: 30px; background: #000; text-align: center; line-height: 50px; border-radius: 9px; color: #fff; position: fixed; left: 1135px; top: 200px; display: none; z-index: 10000; }
+
+section .content .car { display: block; width: 50px; height: 50px; border-radius: 25px; background: #000; position: fixed; right: 0px; top: 200px; }
+
+section .content .car:hover { background: red; }
+
+section .content .car img { width: 25px; margin-top: 10px; }
+
+section .content .car .count { display: block; width: 25px; height: 25px; background: #E93B39; border-radius: 12.5px; position: relative; left: 12px; top: -50px; text-align: center; line-height: 25px; color: #fff; font-size: 14px; }
+
+section .content .p1 { margin-top: 25px; }
+
+section .content .p1 a { font-size: 14px; color: #666666; }
+
+section .content .p1 a:hover { color: #FE002A; }
+
+section .content .brand { width: 1200px; height: 300px; background: #fff; box-shadow: 0 2px 5px #ccc; margin-top: 20px; overflow: hidden; }
+
+section .content .u { width: 940px; height: 225px; border: 1px solid #ccc; margin-top: 39px; }
+
+section .content .u li { width: 935px; height: 38px; border-bottom: 1px dotted #ccc; float: left; }
+
+section .content .u li:nth-child(5) { border-bottom: none; }
+
+section .content .u li:nth-child(1) { height: 73px; }
+
+section .content .u li .l { width: 80px; float: left; margin-left: 20px; }
+
+section .content .u li .l a { font-size: 13px; color: #000; display: inline-block; margin-top: 9px; }
+
+section .content .u li .l a:hover { color: red; }
+
+section .content .u li .c { width: 706px; float: left; margin-left: 10px; }
+
+section .content .u li .c a { font-size: 13px; color: #000; margin: 10px 10px; display: inline-block; }
+
+section .content .u li .c a:hover { color: red; }
+
+section .content .u li .r { width: 80px; float: left; margin-left: 20px; }
+
+section .content .u li .r a { font-size: 13px; color: #000; margin: 10px 5px; display: inline-block; }
+
+section .content .u li .r a:hover { color: red; }
+
+section .content .p { width: 1200px; height: 40px; background: #fff; box-shadow: 0 2px 5px #ccc; margin-top: 30px; }
+
+section .content .p a { display: inline-block; height: 40px; line-height: 40px; width: 200px; background: #7F69B3; color: #fff; float: left; text-align: center; }
+
+section .content .p a:hover { background: #333; }
+
+section .content .list { width: 1200px; height: 3550px; background: #fff; box-shadow: 0 2px 5px #ccc; margin-top: 30px; }
+
+section .content .list .ul li { float: left; width: 229px; margin: 22px 32px 0 32px; }
+
+section .content .list .ul li:hover { box-shadow: 0 0px 22px #ccc; }
+
+section .content .list .ul li a { color: #666666; }
+
+section .content .list .ul li a h5 { font-weight: normal; font-size: 13px; line-height: 22px; width: 220px; }
+
+section .content .list .ul li a .jg, section .content .list .ul li a .jg1 { font-size: 13px; margin-left: 10px; }
+
+section .content .list .ul li a .x { margin-left: 20px; font-size: 13px; }
+
+section .content .list .ul li .addGoods { width: 97px; height: 26px; display: block; background: #E4393C; font-size: 12px; text-align: center; line-height: 26px; color: #fff; cursor: pointer; position: relative; left: -57px; top: 10px; }
+
+section .content .list .ul li .s { width: 97px; height: 26px; display: block; background: #E4393C; font-size: 12px; text-align: center; line-height: 26px; color: #fff; cursor: pointer; position: relative; left: 58px; top: -16px; }
+
+.u-flyer { display: block; width: 60px; height: 60px; border-radius: 50px; position: fixed; z-index: 9999; }

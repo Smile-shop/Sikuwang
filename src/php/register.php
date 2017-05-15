@@ -16,9 +16,9 @@
 		if($excute){
 			echo "{state: true}";
 		} else {
-			echo "{state: false, message: '插入失败！！！'}";
+			echo "{state: false, message: '注册失败！'}";
 		}
 	} else {
-		echo "{state: false, message: 'email 已被注册！！！'}";
+		echo "{state: false, message: '该用户名已被注册！请重新输入！'}";
 	}
 ?>

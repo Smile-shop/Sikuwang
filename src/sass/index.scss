@@ -46,6 +46,38 @@ section{
   background:#fff;
   .contant{
     width: 1200px;
+    margin-top: 30px;
+      .car{
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius:25px;
+        background:#000;
+        // overflow: hidden;
+        position: fixed;
+        right: 0px;
+        top: 200px;
+        &:hover{
+          background:red;
+        }
+      img{
+        width: 25px;
+        margin-top: 10px;
+      }
+      .count{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background:#E93B39;
+        border-radius:12.5px;
+        position: relative;
+        left: 12px;top: -50px;
+        text-align: center;
+        line-height: 25px;
+        color:#fff;
+        font-size: 14px;
+      }
+    }
     .main1{
       width: 1200px;
       height: 480px;

@@ -1,23 +1,87 @@
 @import url("footer.css");
 @import url("base.css");
-*{margin: auto;}
+* { margin: auto; }
+
 header { height: 70px; width: 100%; background: #323131; position: relative; }
 
 header i { position: absolute; display: block; left: 40px; width: 30px; height: 70px; background: url("../img/logo.png"); }
 
-header .right { float: right;position:absolute;right:180px; }
+header .right { float: right; position: absolute; right: 180px; }
 
-section { height: 750px; width: 100%; background: #fdf8f4; }
+section { width: 100%; background: #fdf8f4; }
 
-section .content { width: 1200px; height: 750px;overflow: hidden;}
-section .content .car{ width: 986px;margin-top: 60px;border:1px solid #fff;border-bottom:none;}
-section .content .car .top{ width: 986px; height: 50px;background-color: #ECECEC;border-bottom:1px solid #fff;}
+section .content { width: 1200px; overflow: hidden; padding-bottom: 55px; }
 
-section .content .car .top input{margin-top: 18px;margin-left: 10px;}
-section .content .car .top span{font-size: 13px;color:#494949;}
-section .content .car .top .goodname{margin-left: 171px;}
-section .content .car .top .price{margin-left: 182px;}
-section .content .car .top .count{margin-left: 91px;}
-section .content .car .top .sum{margin-left: 112px;}
-section .content .car .top .cao{margin-left: 112px;}
-section .content .car ul{width: 986px;background-color: #FDF0EF;border-bottom:1px solid #fff;}
+section .content .car { width: 986px; margin-top: 60px; border: 1px solid #fff; border-bottom: none; }
+
+section .content .car .top { width: 986px; height: 50px; background-color: #ececec; border-bottom: 1px solid #fff; }
+
+section .content .car .top input { margin-top: 18px; margin-left: 10px; }
+
+section .content .car .top span { font-size: 13px; color: #494949; }
+
+section .content .car .top .goodname { margin-left: 171px; }
+
+section .content .car .top .price { margin-left: 182px; }
+
+section .content .car .top .count { margin-left: 91px; }
+
+section .content .car .top .sum { margin-left: 112px; }
+
+section .content .car .top .cao { margin-left: 112px; }
+
+section .content .car .list ul { width: 986px; height: 80px; background-color: #fdf0ef; border-bottom: 1px solid #fff; }
+
+section .content .car .list ul li { float: left; font-size: 13px; }
+
+section .content .car .list ul li .gcheck { margin: 32px 10px; }
+
+section .content .car .list ul li .pic { float: left; margin-left: 20px; width: 70px; height: 70px; margin-top: 3px; }
+
+section .content .car .list ul li .pic img { width: 70px; height: 70px; }
+
+section .content .car .list ul li .txt { float: left; width: 300px; }
+
+section .content .car .list ul li .gprice { width: 90px; margin-left: 14px; color: red; font-size: 16px; }
+
+section .content .car .list ul li .gcount { width: 50px; text-align: center; height: 22px; }
+
+section .content .car .list ul li .a { float: left; margin-top: 10px; }
+
+section .content .car .list ul li .cut { width: 22px; height: 22px; display: inline-block; background: #DDDDDD; font-weight: bold; text-align: center; margin-left: 33px; cursor: pointer; }
+
+section .content .car .list ul li .cut:hover { background: #E93B39; color: #fff; }
+
+section .content .car .list ul li .add { width: 22px; height: 22px; display: inline-block; background: #DDDDDD; font-weight: bold; text-align: center; cursor: pointer; }
+
+section .content .car .list ul li .add:hover { background: #E93B39; color: #fff; }
+
+section .content .car .list ul li .gsum { width: 100px; margin-left: 57px; color: red; font-size: 16px; }
+
+section .content .car .list ul li .gcao { width: 100px; margin-left: 55px; }
+
+section .content .car .list ul li .gcao a:hover { color: red; }
+
+section .content .car .list ul li p { text-align: center; margin-top: 10px; }
+
+section .content .car .list ul li p a { color: #494949; }
+
+section .content .b { width: 986px; height: 187px; background: #fff; margin-top: 20px; overflow: hidden; }
+
+section .content .b .cut { position: relative; margin-top: 23px; margin-left: 87px; }
+
+section .content .b .cut a { color: #494949; font-size: 14px; }
+
+section .content .b .cut a:hover { color: red; }
+
+section .content .b .cut a .tu { display: block; width: 20px; height: 20px; background: url("../img/lajitong2.png"); position: absolute; left: -26px; top: 2px; }
+
+section .content .b .total { font-size: 14px; color: #494949; margin-left: 64px; margin-top: 18px; }
+
+section .content .b .total .totalprice { font-size: 28px; color: red; }
+
+section .content .b .ti { font-size: 16px; color: #fff; margin-left: 64px; width: 142px; height: 42px; background: #E93B39; border-radius: 5px; text-align: center; line-height: 42px; margin-top: 20px; cursor: pointer; }
+
+section .content .b .shouye { margin-left: 64px; width: 142px; height: 42px; border-radius: 5px; border: 1px solid #E93B39; text-align: center; line-height: 42px; position: relative; top: -42px; left: 150px; cursor: pointer; }
+
+section .content .b .shouye a { font-size: 16px; color: #E93B39; }

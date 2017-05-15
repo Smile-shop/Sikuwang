@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("header.css");
 @import url("footer.css");
 @import url("base.css");
@@ -7,6 +8,16 @@
 section { width: 100%; height: 11350px; background-color: #EDEDED; margin-top: 35px; overflow: hidden; }
 
 section .content { width: 1200px; }
+
+section .content .tips { width: 200px; heigth: 30px; background: #000; text-align: center; line-height: 50px; border-radius: 9px; color: #fff; position: fixed; left: 1135px; top: 200px; display: none; }
+
+section .content .car { display: block; width: 50px; height: 50px; border-radius: 25px; background: #000; position: fixed; right: 0px; top: 200px; z-index: 1000; }
+
+section .content .car:hover { background: red; }
+
+section .content .car img { width: 25px; margin-top: 10px; }
+
+section .content .car .count { display: block; width: 25px; height: 25px; background: #E93B39; border-radius: 12.5px; position: relative; left: 12px; top: -50px; text-align: center; line-height: 25px; color: #fff; font-size: 14px; }
 
 section .content .p1 { margin-top: 35px; }
 
@@ -54,6 +65,8 @@ section .content .top .right .center span { color: #666666; font-size: 14px; lin
 
 section .content .top .right .center span.jg { margin-left: 45px; font-size: 26px; color: red; }
 
+section .content .top .right .center span.jg:before { content: '￥'; }
+
 section .content .top .right .center span.jb { margin-left: 40px; }
 
 section .content .top .right .center span.fh { margin-left: 55px; }
@@ -70,13 +83,19 @@ section .content .top .right .b .b1 span { display: block; float: left; width: 2
 
 section .content .top .right .b .b2 { width: 300px; float: left; }
 
-section .content .top .right .b .b2 span { color: #666666; font-size: 14px; }
+section .content .top .right .b .b2 .gc { color: #666666; font-size: 14px; margin-left: -152px; margin-top: 30px; position: relative; top: 8px; }
 
-section .content .top .right .b .b2 .cut, section .content .top .right .b .b2 .add { width: 22px; height: 22px; display: inline-block; background: #DDDDDD; font-weight: bold; text-align: center; }
+section .content .top .right .b .b2 .cut, section .content .top .right .b .b2 .add { width: 22px; height: 22px; display: inline-block; background: #DDDDDD; font-weight: bold; text-align: center; cursor: pointer; }
 
-section .content .top .right .b .b2 input { width: 20px; text-align: center; }
+section .content .top .right .b .b2 .cut:hover, section .content .top .right .b .b2 .add:hover { background: #E93B39; color: #fff; }
 
-section .content .top .right .b .b2 .qg { display: block; width: 200px; height: 40px; background-color: #E93A38; color: #fff; margin-top: 20px; text-align: center; line-height: 40px; border-radius: 20px; margin-left: 0; cursor: pointer; }
+section .content .top .right .b .b2 .cut { margin-left: 82px; }
+
+section .content .top .right .b .b2 .a { float: left; margin-top: 10px; }
+
+section .content .top .right .b .b2 input { width: 35px; height: 22px; text-align: center; }
+
+section .content .top .right .b .b2 .qg { display: block; width: 200px; height: 40px; background-color: #E93A38; color: #fff; margin-top: 30px; text-align: center; line-height: 40px; border-radius: 20px; margin-left: 0; cursor: pointer; }
 
 section .content .top .right .b .b2 .gwc { display: block; width: 200px; height: 40px; background-color: #E93A38; color: #fff; text-align: center; line-height: 40px; border-radius: 20px; margin-left: 0; cursor: pointer; }
 
@@ -117,3 +136,5 @@ section .content .detail .right .xinxi ul .aa { float: left; }
 section .content .detail .right .xinxi ul .aa ul li { font-size: 12px; margin-left: 30px; margin-top: 20px; }
 
 .active { border: 1.4px dashed red; }
+
+.u-flyer { display: block; width: 60px; height: 60px; border-radius: 50px; position: fixed; z-index: 9999; }

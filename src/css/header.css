@@ -1,4 +1,3 @@
-@import url("base.css");
 header { width: 100%; height: 162px; }
 
 header .content { width: 1200px; height: 162px; }
@@ -13,9 +12,7 @@ header .content .login a:nth-child(6) { border-right: 1px solid #766e64; display
 
 header .content .login a:nth-child(7) { margin-left: 22px; }
 
-header .content .login a:hover { color: #000; }
-
-header .content .login i { display: block; background: url("../img/car.png"); position: absolute; left: 456px; top: 5px; width: 16px; height: 13px; }
+header .content .login a:hover { color: red; }
 
 header .content .center { width: 100%; height: 100px; overflow: hidden; position: relative; }
 
@@ -53,6 +50,8 @@ header .nav .hnav a { margin: 0 20px; }
 
 header .nav > a { margin-left: 40px; display: block; height: 34px; width: 180px; background: #382f6b; text-align: center; color: #fff; position: absolute; }
 
+header .nav .hanv a:hover { color: #7b05f9; }
+
 header .nav .all { display: none; z-index: 10; }
 
 header .nav .all dl { width: 180px; height: 63px; }
@@ -62,6 +61,10 @@ header .nav .all dl a { color: #fff; font-size: 12px; }
 header .nav .all dl:nth-child(odd) { background: #463b7f; }
 
 header .nav .all dl:nth-child(even) { background: #382f6b; }
+
+header .nav .all dl:hover { background: #fff; }
+
+header .nav .all dl:hover a { color: #333333; font-size: 12px; }
 
 header .nav .nav1 { margin-left: 40px; height: 34px; width: 180px; background: #382f6b; text-align: center; position: absolute; z-index: 100000; }
 

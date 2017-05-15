@@ -5,14 +5,16 @@ require.config({
         "jquery": "../lib/jquery-3.1.1",
         "carousel":"jquery-carousel",
         "gdszoom":"jquery.gdszoom",
-        "lazyload":"../lib/jquery.lazyload"
+        "lazyload":"../lib/jquery.lazyload",
+        "fly":"../lib/jquery.fly",
 
     },
      shim:{
     	// 表示依赖jquery
         "gdszoom":["jquery"],
     	"carousel":["jquery"],
-        "lazyload":["jquery"]
+        "lazyload":["jquery"],
+        "fly":["jquery"]
     }
 
 })

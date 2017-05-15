@@ -112,9 +112,9 @@ require(['config'],function(){
 				    	flyer.remove();
 
 				    	//显示已加入购物车提示
-				    	$('.tips').css({display: 'block',opacity:0}).stop().animate({left:1090,opacity: 1},300);
+				    	$('.tips').css({display: 'block',opacity:0}).stop().animate({left:1020,opacity: 1},300);
 				    	setTimeout(function(){
-				    		$('.tips').stop().animate({left:1145,opacity: 0},300).css({display: 'block',opacity:0});
+				    		$('.tips').stop().animate({left:1090,opacity: 0},300).css({display: 'block',opacity:0});
 				    	},1200);
 				    	// console.log($('.tips'))
 

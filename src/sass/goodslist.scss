@@ -1,0 +1,234 @@
+@import url('footer.css');
+@import url('base.css');
+@import url('header.css');
+* {
+  margin: auto;
+}
+section{
+  width: 100%;
+  height: 4040px;
+  background-color:#EDEDED;
+  margin-top: 35px;
+  overflow:hidden;
+  .content{
+    width:1200px;
+    .tips{
+    width:200px;
+    heigth:30px;
+    background:#000;
+    text-align: center;
+    line-height:50px; 
+    border-radius:9px;
+    color:#fff;
+    position: fixed;
+    left:1135px;
+    top:200px;
+    display:none;
+    z-index:10000;
+    }
+    .car{
+      display: block;
+      width: 50px;
+      height: 50px;
+      border-radius:25px;
+      background:#000;
+      // overflow: hidden;
+      position: fixed;
+      right: 0px;
+      top: 200px;
+      &:hover{
+        background:red;
+      }
+
+      img{
+        width: 25px;
+        margin-top: 10px;
+      }
+      .count{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background:#E93B39;
+        border-radius:12.5px;
+        position: relative;
+        left: 12px;top: -50px;
+        text-align: center;
+        line-height: 25px;
+        color:#fff;
+        font-size: 14px;
+      }
+    }
+    .p1{
+      margin-top: 25px;
+      a{
+        font-size:14px;
+        color:#666666;
+      }
+      a:hover{
+        color:#FE002A;
+      }
+    }
+    .brand{
+      width: 1200px;
+      height: 300px;
+      background:#fff;
+      box-shadow: 0 2px 5px #ccc;
+      margin-top: 20px;
+      overflow:hidden;
+    }
+
+    .u{
+      width: 940px;
+      height: 225px;
+      border:1px solid #ccc;
+      margin-top: 39px;
+      li{
+        width: 935px;
+        height: 38px;
+        border-bottom:1px dotted #ccc;
+        float:left;
+        &:nth-child(5){
+           border-bottom:none;
+        }
+         &:nth-child(1){
+          height: 73px;
+        }
+        .l{
+          width: 80px;
+          float:left;
+          margin-left: 20px;
+
+          a{
+            font-size: 13px;
+            color:#000;
+            display: inline-block;
+            margin-top: 9px;
+             &:hover{
+              color:red;
+            }
+
+          }
+        }
+        .c{
+          width: 706px;
+          float:left;
+          margin-left: 10px;
+           a{
+            font-size: 13px;
+            color:#000;
+            margin: 10px 10px;
+            display: inline-block;
+            &:hover{
+              color:red;
+            }
+          }
+        }
+        .r{
+          width: 80px;
+          float:left;
+          margin-left: 20px;
+           a{
+            font-size: 13px;
+            color:#000;
+            margin: 10px 5px;
+            display: inline-block;
+             &:hover{
+              color:red;
+            }
+          }
+        }
+      }
+      
+    }
+    .p{
+      width: 1200px;
+      height: 40px;
+      background:#fff;
+      box-shadow: 0 2px 5px #ccc;
+      margin-top: 30px;
+      a{
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        width: 200px;
+        background:#7F69B3;
+        color:#fff;
+        float:left;
+        text-align: center;
+        &:hover{
+          background:#333;
+
+        }
+
+      }
+    }
+    .list{
+      width: 1200px;
+      height: 3550px;
+      background:#fff;
+      box-shadow: 0 2px 5px #ccc;
+      margin-top: 30px;
+      .ul{
+        li{ float:left;
+            width: 229px;
+            margin: 22px 32px 0 32px;
+
+            &:hover{
+              box-shadow: 0 0px 22px #ccc;
+            }
+          a{
+            color:#666666;
+            h5{
+              font-weight: normal;
+              font-size: 13px;
+              line-height: 22px;
+              width: 220px;
+            }
+            .jg,.jg1{
+              font-size: 13px;
+              margin-left: 10px;
+              
+            }
+            .x{
+              margin-left: 20px;
+              font-size: 13px;
+            }
+
+          }
+          .addGoods{
+            width: 97px;
+            height: 26px;
+            display: block;
+            background:#E4393C;
+            font-size: 12px;
+            text-align: center;
+            line-height: 26px;
+            color:#fff;
+            cursor:pointer;
+            position: relative;
+            left: -57px;top:10px;
+          }
+          .s{
+            width: 97px;
+            height: 26px;
+            display: block;
+            background:#E4393C;
+            font-size: 12px;
+            text-align: center;
+            line-height: 26px;
+            color:#fff;
+            cursor:pointer;
+            position: relative;
+            left: 58px;top:-16px;
+          }
+          
+        }
+      }
+    }
+
+
+
+
+  }
+}
+.u-flyer {display: block;width: 60px;height: 60px;border-radius: 50px;position: fixed;z-index: 9999;}
